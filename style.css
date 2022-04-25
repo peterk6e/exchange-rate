@@ -1,0 +1,18 @@
+body {
+  background: rgb(26, 26, 26);
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  margin: 0;
+}
+
+.container {
+  color: rgb(59, 59, 59);
+  background: #bbb;
+  margin: 0 auto 0 auto;
+  padding: 2px 2px;
+  width: 800px;
+  border-radius: 4px;
+}
