@@ -1,5 +1,5 @@
 body {
-  background: rgb(26, 26, 26);
+  background: rgba(2, 0, 36, 0.8715861344537815);
   font-family: "Open Sans", sans-serif;
   display: flex;
   align-items: center;
@@ -8,11 +8,62 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: 45px;
+  margin-bottom: 75px;
+}
+
 .container {
-  color: rgb(59, 59, 59);
-  background: #bbb;
-  margin: 0 auto 0 auto;
-  padding: 2px 2px;
+  color: white;
+  background: rgb(65, 2, 57);
+  background: linear-gradient(
+    20deg,
+    rgba(2, 0, 36, 0.8715861344537815) 0%,
+    rgba(130, 19, 172, 1) 72%,
+    rgba(0, 212, 255, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin: 50px auto 0 auto;
+  padding: 50px 80px;
   width: 800px;
-  border-radius: 4px;
+  border-radius: 40px;
+}
+
+.input {
+  margin-left: 200px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  background: white;
+}
+
+.output {
+  margin-left: 200px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  background: white;
+}
+
+select {
+  text-align: center;
+  height: 45px;
+  font-size: 20px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.ico {
+  float: right;
+  font-size: 105px !important;
+}
+
+.rate {
+  color: rgb(200, 112, 179);
+  margin-top: 22px;
+  font-size: 32px;
 }
